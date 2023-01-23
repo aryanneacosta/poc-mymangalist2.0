@@ -16,6 +16,7 @@ You can add all your read and to-be-read mangas and this API will organize it fo
 # Routes
 
 SERIES ROUTES:
+	
 	POST: /series
 	Adding a new manga series to your db:
 		- Body: { 
@@ -32,6 +33,7 @@ SERIES ROUTES:
 	Return all series from a specific genre.
 
 VOLUMES ROUTES:
+	
 	POST: /volume
 	Adding a new volume from a series you've already added:
 		- Body: { 
