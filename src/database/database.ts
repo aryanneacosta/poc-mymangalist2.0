@@ -4,11 +4,11 @@ import 'dotenv/config'
 const { Pool } = pg;
 
 const connection = new Pool({
-	host: 'localhost',
-	port: 5432,
-	user: 'postgres',
-	password: 'Doradoidona2332',
-	database: 'mymangalist2.0' 
+	host: 'your_host_name',
+	port: 5555,
+	user: 'postgres_user',
+	password: 'postgres_password',
+	database: 'database_name' 
 });
 
 export { connection }
